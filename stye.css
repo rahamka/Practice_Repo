@@ -5,30 +5,11 @@ body {
   background-color: gray;
 }
 
-#container {
-  height: 60px;
-  background-color: #0f1111;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-button {
-  background-color: #f08804;
-  color: white;
-}
-
-#innerDiv1 {
-  font-size: 25px;
-}
-
-main div {
-  background-color: #f08804;
-  display: inline-block;
-  margin: 10px;
+div {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  margin: 25px;
+  /* padding: 25px; */
+  display: inline;
 }
