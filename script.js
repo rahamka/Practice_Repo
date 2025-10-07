@@ -12,6 +12,17 @@ function sumFunction(sum) {
 
 sumFunction(10);
 
-for (let items of output) {
-  console.log(items);
-}
+output.forEach((items) => {
+  for (const chars of items) {
+    console.log(chars);
+  }
+});
+
+// for Understanding how forEach works?
+const myArray = ["Apple"];
+
+myArray.forEach((item) => {
+  for (const char of item) {
+    console.log(char);
+  }
+});

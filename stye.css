@@ -1,5 +1,34 @@
 body {
-  background-color: #dc0000;
-  color: gray;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: gray;
 }
-/* 48:00  */
+
+#container {
+  height: 60px;
+  background-color: #0f1111;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background-color: #f08804;
+  color: white;
+}
+
+#innerDiv1 {
+  font-size: 25px;
+}
+
+main div {
+  background-color: #f08804;
+  display: inline-block;
+  margin: 10px;
+}
