@@ -5,11 +5,9 @@ main div {
   border: 2px solid black;
   display: inline-block;
 }
-
+/* 
 #box1 {
   position: static;
-  /* Static means "By Default"  */
-  /* By Default this element has position it will be on same path */
   top: 50px;
   left: 50px;
 }
@@ -19,9 +17,12 @@ main div {
   top: 1.2rem;
   left: 1rem;
   z-index: -1;
-}
+} */
 
 #box3 {
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  right: 1px;
+  bottom: 1px;
 }
+
+/* lacture time 03:30:51  */
