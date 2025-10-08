@@ -1,28 +1,63 @@
 main div {
   height: 100px;
   width: 100px;
-  background-color: aqua;
   border: 2px solid black;
-  display: inline-block;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-/* 
+
 #box1 {
-  position: static;
-  top: 50px;
-  left: 50px;
+  background-color: rgb(77, 154, 255);
+  color: white;
+  position: absolute;
+  top: 1px;
 }
 
 #box2 {
-  position: relative;
-  top: 1.2rem;
-  left: 1rem;
-  z-index: -1;
-} */
-
-#box3 {
-  position: fixed;
-  right: 1px;
-  bottom: 1px;
+  background-color: pink;
+  position: sticky;
+  top: 12px;
+  left: 12px;
 }
 
+#box3 {
+  color: red;
+  background-color: yellow;
+  position: relative;
+  bottom: 100px;
+  z-index: 1;
+}
+
+#box4 {
+  position: fixed;
+  right: 0px;
+  top: 20px;
+  background-color: yellow;
+}
 /* lacture time 03:30:51  */
+/* Position static: Means not apply any effect on the element */
+/* Position relative: Means apply effect on the element from the current position */
+/* Position abosolute: Means apply effect on the element from the top of the browser */
+/* Position fixed: Means apply effect on the element for scrolling */
+/* Position sticky: Means apply effect on the elment when scrolling */
+
+#container {
+  border: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: fit-content;
+}
+
+#box5 {
+  display: inline-flex;
+  background-color: blue;
+  color: yellow;
+}
+
+h1 {
+  text-align: center;
+}
