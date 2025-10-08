@@ -1,15 +1,20 @@
 body {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-  background-color: gray;
+  background-color: rgb(0, 43, 78);
 }
 
 div {
   height: 100px;
   width: 100px;
   border: 2px solid black;
-  margin: 25px;
-  /* padding: 25px; */
-  display: inline;
+}
+
+#div1 {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#div2 {
+  background-color: rgba(0, 255, 0, 0.5);
+  display: hidden;
+}
+#div3 {
+  background-color: rgba(0, 0, 255, 0.5);
 }
