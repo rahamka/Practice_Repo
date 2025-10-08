@@ -23,6 +23,5 @@ main div {
 
 #box3 {
   position: absolute;
-  /* I didn't understand the position: absolute; */
   top: 20px;
 }
