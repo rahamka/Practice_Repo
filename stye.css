@@ -1,20 +1,28 @@
-div {
-  border: 2px solid black;
-}
-
-#container {
-  background-color: yellow;
+main div {
   height: 100px;
   width: 100px;
-  font-size: 25px;
+  background-color: aqua;
+  border: 2px solid black;
+  display: inline-block;
 }
 
-#div2 {
-  height: 50%;
-  max-width: fit-content;
-  min-width: 50%;
-  background-color: green;
-  font-size: 1rem;
+#box1 {
+  position: static;
+  /* Static means "By Default"  */
+  /* By Default this element has position it will be on same path */
+  top: 50px;
+  left: 50px;
 }
 
-/* Please practice of the css that you've learned  */
+#box2 {
+  position: relative;
+  top: 1.2rem;
+  left: 1rem;
+  z-index: -1;
+}
+
+#box3 {
+  position: absolute;
+  /* I didn't understand the position: absolute; */
+  top: 20px;
+}
