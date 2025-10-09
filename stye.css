@@ -4,30 +4,37 @@
   box-sizing: border-box;
 }
 
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100px;
+body {
+  text-align: center;
 }
 
-#boxDiv {
-  height: 200px;
-  width: 200px;
-  background-image: url(dev.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+div {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  border: 2px solid black;
 }
-
 #container {
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  justify-content: end;
-  position: sticky;
-  right: 0px;
-  top: 0px;
-  margin-bottom: 10px;
+  height: 200px;
+  width: 800px;
 }
-/* I fix the error of the setting the element to the 
-right and element shouldn't move by scrolling of the page. */
+
+#box1 {
+  background-color: aqua;
+}
+
+#box2 {
+  background-color: pink;
+}
+
+#box3 {
+  background-color: darkgoldenrod;
+}
+
+#box4 {
+  background-color: darkslategray;
+}
+
+#box5 {
+  background-color: darkblue;
+}
