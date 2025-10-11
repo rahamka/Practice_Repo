@@ -11,7 +11,6 @@ div {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
 }
 
 #box1 {
@@ -21,6 +20,7 @@ div {
 #box2 {
   background-color: aqua;
   color: black;
+  align-self: flex-end;
 }
 
 #box3 {
