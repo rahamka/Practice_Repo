@@ -1,18 +1,9 @@
-function factorialDigitSum(sum) {
-  // calculate factorial
-  let factorial = 1n;
-  // BigInt for handle large numbers
-  for (let i = 1; i <= sum; i++) {
-    factorial *= BigInt(i);
-  }
-  // convert factorial toString to sum the digits
-  let factorialStr = factorial.toString();
-  let Sum = 0;
-  for (let digits of factorialStr) {
-    Sum += parseInt(digits);
-  }
-  return Sum;
-}
+import OpenAI from "openai";
+const client = new OpenAI();
 
-console.log(factorialDigitSum(4));
-// This code is solving the challenge of the factorialCounting?
+const response = await client.responses.create({
+  model: "gpt-5",
+  input: "Write a short bedtime story about a unicorn.",
+});
+
+console.log(response.output_text);
