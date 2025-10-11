@@ -1,35 +1,58 @@
+div {
+  height: 100px;
+  width: 150px;
+  border: 2px solid black;
+}
 #container {
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 250px;
-  border: 10px solid rgb(255, 0, 157);
-  border-radius: 30%78%78%38%/30%38%78%78%;
-  background-image: url(myPicture.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  align-content: center;
+}
+
+#box1 {
+  background-color: magenta;
+}
+
+#box2 {
+  background-color: aqua;
+  color: black;
+}
+
+#box3 {
+  background-color: blue;
+}
+
+#box4 {
+  background-color: cadetblue;
+}
+
+#box5 {
+  background-color: crimson;
 }
 
 main {
   display: flex;
   justify-content: center;
+  color: white;
 }
 
-header {
-  display: flex;
-  justify-content: center;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-}
-
-td,
-th {
-  border: 2px solid rgb(255, 0, 157);
-  min-width: 100px;
+header nav {
   text-align: center;
 }
+
+#box1,
+#box2,
+#box3,
+#box4,
+#box5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* why this style is applying on the container-Div
+   when i apply on only div? */
