@@ -1,9 +1,15 @@
-import OpenAI from "openai";
-const client = new OpenAI();
+/**
+ * @param {string} val
+ * @return {Object}
+ */
+var expect = function (val) {
+  function toBe(val) {
+    let object = val === val ? "ture" : "false";
+    console.log(object);
+  }
+};
 
-const response = await client.responses.create({
-  model: "gpt-5",
-  input: "Write a short bedtime story about a unicorn.",
-});
-
-console.log(response.output_text);
+/**
+ * expect(5).toBe(5); // true
+ * expect(5).notToBe(5); // throws "Equal"
+ */
