@@ -32,4 +32,19 @@ function findUnion(arr1, arr2) {
 
 // Chellange 4 Coins = 50
 {
+  function isPrime(n) {
+    if (n <= 1) return false;
+    if (n == 2) return true;
+    if (n % 2 == 0) return false;
+    for (let i = 3; i * i <= n; i += 2) {
+      if (n % i == 0) return false;
+    }
+    return true;
+  }
+
+  function formsWagstaffPrime(p) {
+    if (!isPrime(p)) return false;
+    let wagstaff = (Math.pow(2, p) + 1) / 3;
+    return isPrime(wagstaff);
+  }
 }
