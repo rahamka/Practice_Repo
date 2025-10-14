@@ -1,15 +1,15 @@
-/**
- * @param {string} val
- * @return {Object}
- */
-var expect = function (val) {
-  function toBe(val) {
-    let object = val === val ? "ture" : "false";
-    console.log(object);
+// Chellange 2 Coins = 50
+function findUnion(arr1, arr2) {
+  let value1 = arr1;
+  let value2 = arr2;
+  let result = arr1.concat(arr2);
+  function removeDuplicatesWithSet(arr) {
+    return [...new Set(arr)];
   }
-};
+  const uniqueNumbers = removeDuplicatesWithSet(result);
+  return uniqueNumbers;
+}
 
-/**
- * expect(5).toBe(5); // true
- * expect(5).notToBe(5); // throws "Equal"
- */
+// if(navigator.onLine){
+
+// }
