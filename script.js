@@ -29,3 +29,7 @@ function findUnion(arr1, arr2) {
     return arr;
   }
 }
+
+// Chellange 4 Coins = 50
+{
+}
