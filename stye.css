@@ -66,3 +66,12 @@ li {
   color: white;
   font-size: 25px;
 }
+#box-2 {
+  transition: all 1s ease-in 0.2s;
+}
+
+#box-2:hover {
+  background-color: goldenrod;
+  /* Note: why here transition isn't applying on the width Property?  */
+  width: 153px;
+}
