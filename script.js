@@ -48,3 +48,5 @@ function findUnion(arr1, arr2) {
     return isPrime(wagstaff);
   }
 }
+
+// LeetCode Chellange
