@@ -60,7 +60,23 @@ li {
 #box-1:hover {
   background-color: goldenrod;
   transform: skew(30deg);
-  transform: rotate(45deg);
-  transform: translate(20px, 15px);
-  transform: scale(1.2);
+  transform: rotateX(45deg);
+  /* transform: translate(20px, 15px);
+  transform: scale(1.2); */
 }
+
+/* I understand these all the topics */
+/* Position: static, sticky, absolute, fixed, relative*/
+
+/* Transition-Property
+   Transition-Duration
+   Transition-timing-funcion
+   Transition-delay */
+
+/* Transform: rotate, scale, skew, translate */
+
+/* Flexbox Playground */
+/* Display : flex, inline, inline-flex, block, inline-block */
+
+/* Box Model In CSS */
+/* Margin, Padding, border, height, width */

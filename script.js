@@ -80,5 +80,5 @@ for (let i = 0; i <= array.length; i++) {
   }
 }
 
-getElement.innerHTML += ` Characters= ${count.length}`;
+getElement.innerHTML += ` Characters = ${count.length}`;
 // How to remove the white spaces from count?
