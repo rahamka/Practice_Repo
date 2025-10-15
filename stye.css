@@ -60,14 +60,13 @@ li {
 #box-1:hover {
   background-color: goldenrod;
   transform: skew(30deg);
-  transform: rotateX(45deg);
+  transform: rotate(-45deg);
   /* transform: translate(20px, 15px);
   transform: scale(1.2); */
 }
 
 /* I understand these all the topics */
 /* Position: static, sticky, absolute, fixed, relative*/
-
 /* Transition-Property
    Transition-Duration
    Transition-timing-funcion
@@ -77,6 +76,29 @@ li {
 
 /* Flexbox Playground */
 /* Display : flex, inline, inline-flex, block, inline-block */
+/* Justify-content */
+/* align-items */
+/* align-content */
+/* align-self */
+/* flex-shrink */
+/* flex-grow */
+/* flex-wrap */
 
 /* Box Model In CSS */
 /* Margin, Padding, border, height, width */
+
+/* Background */
+/* Background-image, Background-size, Background-repeat */
+
+/* Responsive */
+/* @media Quaries */
+
+/* Units for Responsiveness */
+/* viewport height 10vh*/
+/* viewport width 10vw*/
+/* rem and  em , px */
+
+/* All about Display Grid */
+/* gird-template-columns, grid-template-rows, 
+   grid-rows, grid-columns, gap, row-gap, column-gap, grid-row-start, grid-row-end,
+   grid-column-start, grid-column-end, gird-area */
