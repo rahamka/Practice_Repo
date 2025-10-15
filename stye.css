@@ -4,12 +4,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 h1 {
   text-align: center;
   margin: 12px;
@@ -24,7 +18,7 @@ h1 {
   column-gap: 12px;
   border: 2px solid blue;
   height: auto;
-  width: auto;
+  width: fit-content;
   padding: 10px;
   border-radius: 12px;
 }
@@ -44,6 +38,17 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+
+#container {
+  position: sticky;
+  top: 12px;
+  left: 12px;
+}
+
+#outerBox {
+  padding-top: 30px;
+}
+
 /* I understand these all the topics in css*/
 /* Position: static, sticky, absolute, fixed, relative*/
 /* Transition-Property
