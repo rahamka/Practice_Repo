@@ -69,16 +69,16 @@ var createCounter = function (init) {
   };
 };
 
-// counting character
-let getElement = document.getElementById("heading");
-let array = getElement.innerText;
-let count = [];
-// console.log(array);
-for (let i = 0; i <= array.length; i++) {
-  if (array[i] !== "") {
-    count.push(array[i]);
-  }
-}
+// // counting character
+// let getElement = document.getElementById("heading");
+// let array = getElement.innerText;
+// let count = [];
+// // console.log(array);
+// for (let i = 0; i <= array.length; i++) {
+//   if (array[i] !== "") {
+//     count.push(array[i]);
+//   }
+// }
 
-getElement.innerHTML += ` Characters = ${count.length}`;
-// How to remove the white spaces from count?
+// getElement.innerHTML += ` Characters = ${count.length}`;
+// // How to remove the white spaces from count?

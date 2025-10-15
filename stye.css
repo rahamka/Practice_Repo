@@ -1,71 +1,50 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 main {
-  padding: 12px;
-}
-
-ul li h1 {
-  text-align: center;
-  padding: 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-}
-
-li {
-  list-style: none;
-}
-
-.box {
-  background-color: rgb(0, 85, 119);
-  border: 2px solid black;
-  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
 }
 
-/* Container  */
+h1 {
+  text-align: center;
+  margin: 12px;
+  padding-bottom: 12px;
+}
+
 #container {
-  border: 2px solid red;
-  border-radius: 12px;
-  height: fit-content;
-  padding: 12px;
   display: grid;
-  grid-auto-flow: row;
-  flex-wrap: wrap;
-  /* Instead of flex-wrap: wrap; what we can use in display: grid;? */
-  gap: 12px;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 70px 100px;
-  grid-auto-rows: 50px;
+  grid-template-columns: 100px 100px 101px;
+  grid-template-rows: 50px auto;
+  row-gap: 12px;
+  column-gap: 12px;
+  border: 2px solid blue;
+  height: auto;
+  width: auto;
+  padding: 10px;
+  border-radius: 12px;
 }
 
-#box-7 {
-  grid-area: 3/1/3/3;
+#div1 {
+  grid-area: 1/1/1/4;
+  height: 50px;
+  width: auto;
 }
 
-#box-3 {
-  grid-area: 1/3/5/3;
+.box {
+  height: 100px;
+  width: 99px;
+  border: 2px solid black;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-#box-1 {
-  grid-area: 1/1/3/1;
-  transition: all 2s ease-in 0.2s;
-}
-
-#box-1:hover {
-  background-color: goldenrod;
-  transform: skew(30deg);
-  transform: rotate(-45deg);
-  /* transform: translate(20px, 15px);
-  transform: scale(1.2); */
-}
-
-/* I understand these all the topics */
+/* I understand these all the topics in css*/
 /* Position: static, sticky, absolute, fixed, relative*/
 /* Transition-Property
    Transition-Duration
@@ -96,7 +75,9 @@ li {
 /* Units for Responsiveness */
 /* viewport height 10vh*/
 /* viewport width 10vw*/
-/* rem and  em , px */
+/* rem, em & px */
+/* visibility: hidden */
+/* overflow: scroll; */
 
 /* All about Display Grid */
 /* gird-template-columns, grid-template-rows, 
