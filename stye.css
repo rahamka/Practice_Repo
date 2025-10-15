@@ -87,5 +87,7 @@ li {
 }
 
 #box-8 {
-  transform: translateY(61.1px);
+  /* When i applying the transition: translate(); 
+     not working because of no space. */
+  /* transform: translateY(61.1px); */
 }
