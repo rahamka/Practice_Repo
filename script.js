@@ -68,3 +68,18 @@ var createCounter = function (init) {
     },
   };
 };
+
+// counting character
+let getElement = document.getElementById("heading");
+let array = getElement.innerText;
+let count = [];
+// console.log(array);
+for (let i = 0; i <= array.length; i++) {
+  if (array[i] !== "") {
+    count.push(array[i]);
+  } else if (array[i] == "") {
+    count.pop();
+  }
+}
+
+console.log(count);

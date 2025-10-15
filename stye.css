@@ -85,9 +85,3 @@ li {
   margin-bottom: 1.2rem;
   transform: skew(30deg);
 }
-
-#box-8 {
-  /* When i applying the transition: translate(); 
-     not working because of no space. */
-  /* transform: translateY(61.1px); */
-}
