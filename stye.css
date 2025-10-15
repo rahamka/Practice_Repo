@@ -82,6 +82,9 @@ li {
   background-color: goldenrod;
   /* width: 153px;
   height: 70px; */
-  margin-bottom: 1.2rem;
+  /* margin-bottom: 1.2rem; */
   transform: skew(30deg);
+  transform: rotate(45deg);
+  transform: translate(20px, 15px);
+  transform: scale(1.2);
 }

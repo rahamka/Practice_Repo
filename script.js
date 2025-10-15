@@ -77,9 +77,8 @@ let count = [];
 for (let i = 0; i <= array.length; i++) {
   if (array[i] !== "") {
     count.push(array[i]);
-  } else if (array[i] == "") {
-    count.pop();
   }
 }
 
-console.log(count);
+getElement.innerHTML += ` Characters= ${count.length}`;
+// How to remove the white spaces from count?
