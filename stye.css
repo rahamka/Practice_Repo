@@ -104,6 +104,11 @@ main #mainDiv {
 #div10:hover {
   background-color: blueviolet;
 }
+
+/* Note i want to say when i hover on each element 
+then bgcolor change comes from left to right?
+I mean bgColor change start animations of bg from left to right.*/
+
 /* I understand these all the topics in css*/
 /* Position: static, sticky, absolute, fixed, relative*/
 /* Transition-Property
