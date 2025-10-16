@@ -49,6 +49,57 @@ h1 {
   padding-top: 30px;
 }
 
+main #mainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* transform: skew(45deg); */
+  transition: all 1s ease-in 0s;
+}
+
+.hoverClass:hover {
+  transform: scale(1.027);
+}
+
+#div1 {
+  background-color: aquamarine;
+}
+
+#div2:hover {
+  background-color: cadetblue;
+}
+
+#div3:hover {
+  background-color: darkgoldenrod;
+}
+
+#div4:hover {
+  background-color: dodgerblue;
+}
+
+#div5:hover {
+  background-color: gold;
+}
+
+#div6:hover {
+  background-color: chocolate;
+}
+
+#div7:hover {
+  background-color: indianred;
+}
+
+#div8:hover {
+  background-color: rgb(255, 0, 98);
+}
+
+#div9:hover {
+  background-color: yellow;
+}
+
+#div10:hover {
+  background-color: blueviolet;
+}
 /* I understand these all the topics in css*/
 /* Position: static, sticky, absolute, fixed, relative*/
 /* Transition-Property

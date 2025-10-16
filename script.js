@@ -1,3 +1,4 @@
+// One Problem
 function hideCreditCard(cardNumber) {
   let str = cardNumber.toString();
   let value = ""; // Initialize value as an empty string
