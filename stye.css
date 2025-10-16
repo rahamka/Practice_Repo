@@ -54,11 +54,13 @@ main #mainDiv {
   justify-content: center;
   align-items: center;
   /* transform: skew(45deg); */
-  transition: all 1s ease-in 0s;
 }
 
 .hoverClass:hover {
+  transition: all 0.11s ease-in 0s;
   transform: scale(1.027);
+  font-size: 20px;
+  color: white;
 }
 
 #div1 {
@@ -79,6 +81,7 @@ main #mainDiv {
 
 #div5:hover {
   background-color: gold;
+  color: red;
 }
 
 #div6:hover {
@@ -95,6 +98,7 @@ main #mainDiv {
 
 #div9:hover {
   background-color: yellow;
+  color: red;
 }
 
 #div10:hover {
