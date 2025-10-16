@@ -1,8 +1,14 @@
 function hideCreditCard(cardNumber) {
-  for (let items in cardNumber) {
-    console.log(items);
+  let str = cardNumber.toString();
+  let value = ""; // Initialize value as an empty string
+  for (let i = 0; i < str.length; i++) {
+    if (i < 12) {
+      value += "*";
+    } else {
+      value += str[i];
+    }
   }
-  return console.log(`************${cardNumber}`);
+  return value;
 }
 
 hideCreditCard(1234567890123456);
