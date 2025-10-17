@@ -40,3 +40,5 @@ function checkChars(s) {
 }
 
 checkChars("oll");
+
+// please complete 15 a day.
