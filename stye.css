@@ -1,150 +1,28 @@
-* {
-  margin: 0;
-  padding: 0;
+#header1 {
+  font-weight: 600;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h1 {
   text-align: center;
-  margin: 12px;
-  padding-bottom: 12px;
+  font-size: 30px;
+  padding: 20px;
 }
 
 #container {
-  display: grid;
-  grid-template-columns: 100px 100px 101px;
-  grid-template-rows: 50px auto;
-  row-gap: 12px;
-  column-gap: 12px;
-  border: 2px solid blue;
-  height: auto;
-  width: fit-content;
-  padding: 10px;
-  border-radius: 12px;
-}
-
-#div1 {
-  grid-area: 1/1/1/4;
-  height: 50px;
-  width: auto;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .box {
-  height: 100px;
-  width: 99px;
+  padding: 1rem;
+  width: 260px;
   border: 2px solid black;
   border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#container {
-  position: sticky;
-  top: 12px;
-  left: 12px;
-}
-
-#outerBox {
-  padding-top: 30px;
-}
-
-main #mainDiv {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* transform: skew(45deg); */
-}
-
-.hoverClass:hover {
-  transition: all 0.11s ease-in 0s;
-  transform: scale(1.027);
-  font-size: 20px;
+  background-color: rgb(107, 101, 101);
   color: white;
 }
-
-#div1 {
-  background-color: aquamarine;
-}
-
-#div2:hover {
-  background-color: cadetblue;
-}
-
-#div3:hover {
-  background-color: darkgoldenrod;
-}
-
-#div4:hover {
-  background-color: dodgerblue;
-}
-
-#div5:hover {
-  background-color: gold;
-  color: red;
-}
-
-#div6:hover {
-  background-color: chocolate;
-}
-
-#div7:hover {
-  background-color: indianred;
-}
-
-#div8:hover {
-  background-color: rgb(255, 0, 98);
-}
-
-#div9:hover {
-  background-color: yellow;
-  color: red;
-}
-
-#div10:hover {
-  background-color: blueviolet;
-}
-
-/* Note i want to say when i hover on each element 
-then bgcolor change comes from left to right?
-I mean bgColor change start animations of bg from left to right.*/
-
-/* I understand these all the topics in css*/
-/* Position: static, sticky, absolute, fixed, relative*/
-/* Transition-Property
-   Transition-Duration
-   Transition-timing-funcion
-   Transition-delay */
-
-/* Transform: rotate, scale, skew, translate */
-
-/* Flexbox Playground */
-/* Display : flex, inline, inline-flex, block, inline-block */
-/* Justify-content */
-/* align-items */
-/* align-content */
-/* align-self */
-/* flex-shrink */
-/* flex-grow */
-/* flex-wrap */
-
-/* Box Model In CSS */
-/* Margin, Padding, border, height, width */
-
-/* Background */
-/* Background-image, Background-size, Background-repeat */
-
-/* Responsive */
-/* @media Quaries */
-
-/* Units for Responsiveness */
-/* viewport height 10vh*/
-/* viewport width 10vw*/
-/* rem, em & px */
-/* visibility: hidden */
-/* overflow: scroll; */
-
-/* All about Display Grid */
-/* gird-template-columns, grid-template-rows, 
-   grid-rows, grid-columns, gap, row-gap, column-gap, grid-row-start, grid-row-end,
-   grid-column-start, grid-column-end, gird-area */
