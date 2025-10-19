@@ -26,15 +26,34 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  margin-left: 200px;
 }
 
-#container {
-  border: 2px solid red;
-  max-width: 50vw;
-  display: inline-flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  gap: 20px;
-  padding: 1rem;
+#box-1 {
+  animation: movingAnimate 1s ease-in 0s 1 alternate;
+}
+
+@keyframes movingAnimate {
+  from {
+    left: -500px;
+  }
+  to {
+    left: 0px;
+  }
+}
+/* Actually i want to mvoe this object in the square but isn't working as i want to? */
+
+.box-1 {
+  animation: afterStyle 0.25s ease-in 0s 2 normal;
+  transform: rotate(0deg);
+}
+
+@keyframes afterStyle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
