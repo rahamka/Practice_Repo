@@ -1,31 +1,29 @@
 * {
-  font-weight: 600;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
 }
 
-body {
-  background-color: darkgrey;
-  color: white;
-}
-
-#container {
-  border: 2px solid black;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-
-#header1 {
-  font-size: 1.2rem;
-  padding: 12px;
+header {
+  padding: 1rem;
 }
 
 .box {
+  height: 100px;
+  width: 100px;
   border: 2px solid black;
-  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+
+#container {
+  border: 2px solid red;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
