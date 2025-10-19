@@ -1,8 +1,8 @@
-let element = document.querySelector(".box");
+let element = document.getElementById("box-1");
 if (element) {
-  setTimeout(() => {
-    element.classList.add("box-1");
-  }, 1001);
+  element.addEventListener("animationend", function () {
+    setTimeout(() => {
+      element.classList.add("box1");
+    }, 2000);
+  });
 }
-
-// why here classList isn't adding?

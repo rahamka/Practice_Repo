@@ -14,24 +14,18 @@ main {
   padding: 1rem;
 }
 
-div {
-  border-radius: 12px;
-  font-size: 1.2rem;
-}
-
 .box {
-  height: 100px;
-  width: 100px;
+  height: 30vw;
+  width: 30vw;
   border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-left: 200px;
 }
-
 #box-1 {
-  animation: movingAnimate 1s ease-in 0s 1 alternate;
+  left: -500px;
+  animation: movingAnimate 1s ease-in 0s 1 forwards;
 }
 
 @keyframes movingAnimate {
@@ -39,17 +33,15 @@ div {
     left: -500px;
   }
   to {
-    left: 0px;
+    left: calc(50vw - 15vw);
   }
 }
-/* Actually i want to mvoe this object in the square but isn't working as i want to? */
 
-.box-1 {
-  animation: afterStyle 0.25s ease-in 0s 2 normal;
-  transform: rotate(0deg);
+.box1 {
+  animation: rotateAnimate 0.25s ease-in 0s 2 normal;
 }
 
-@keyframes afterStyle {
+@keyframes rotateAnimate {
   from {
     transform: rotate(0deg);
   }
