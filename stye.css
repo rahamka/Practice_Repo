@@ -10,6 +10,15 @@ header {
   padding: 1rem;
 }
 
+main {
+  padding: 1rem;
+}
+
+div {
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
+
 .box {
   height: 100px;
   width: 100px;
@@ -17,13 +26,15 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
 }
 
 #container {
   border: 2px solid red;
+  max-width: 50vw;
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-content: center;
+  gap: 20px;
+  padding: 1rem;
 }
