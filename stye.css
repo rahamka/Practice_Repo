@@ -36,16 +36,3 @@ main {
     left: calc(50vw - 15vw);
   }
 }
-
-.box1 {
-  animation: rotateAnimate 0.25s ease-in 0s 2 normal;
-}
-
-@keyframes rotateAnimate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
